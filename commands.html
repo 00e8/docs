@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#08090b">
+<meta name="description" content="Browse commands for vanilla, a multipurpose Discord bot."><title>Commands — vanilla</title><link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+<header class="topbar"><div class="nav-wrap"><button id="navButton" class="nav-pill" aria-expanded="false"><span class="nav-glyph">✳</span><span>Commands</span><span class="nav-caret">⌄</span></button><div id="navMenu" class="nav-menu"><a href="index.html" class="nav-option"><img data-icon="home" alt="">Home<span>↗</span></a><a href="commands.html" class="nav-option current"><img data-icon="star" alt="">Commands<span>⌘</span></a><a href="docs.html" class="nav-option"><img data-icon="info" alt="">Docs<span>↗</span></a><a href="terms.html" class="nav-option">Terms<span>↗</span></a><a href="privacy.html" class="nav-option">Privacy<span>↗</span></a><a class="nav-option" target="_blank" rel="noopener noreferrer" href="https://ptb.discord.com/oauth2/authorize?client_id=1545813406035222598"><img data-icon="plus" alt="">Add to Discord<span>↗</span></a><div class="nav-setting"><label for="prefixInput">COMMAND PREFIX</label><input id="prefixInput" maxlength="8" placeholder="Set your prefix" autocomplete="off"></div></div></div></header>
+<main id="catalog" class="page">
+<section class="page-heading"><div class="heading-title"><div class="heading-icon"><img id="headingIcon" alt=""></div><div><h1 id="headingName">Moderation</h1><div id="headingCount" class="heading-count">0 commands</div></div></div><div class="heading-controls"><label class="search"><span class="search-icon">⌕</span><input id="searchInput" type="search" placeholder="Search commands..." autocomplete="off"><kbd>/</kbd></label></div></section>
+<section class="browser-layout"><aside class="category-panel"><div class="panel-heading"><span>Categories</span><span id="categoryCount">0</span></div><div id="categoryList" class="category-list"></div></aside><div id="commandList" class="command-panel" aria-live="off"></div></section>
+<footer class="site-foot"><span><b class="foot-logo">vanilla</b> &nbsp;·&nbsp; command library</span><span class="legal-links"><a href="terms.html">Terms</a><a href="privacy.html">Privacy</a></span></footer>
+</main><div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script src="assets/js/icons.js"></script><script src="assets/js/commands.js"></script><script src="assets/js/app.js"></script>
+</body></html>
